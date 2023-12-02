@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #F0F8FF; color: black; font-family: 'Century Gothic', sans-serif; margin: 20px; padding: 20px;">
+
+  <div class="nav-bar" style="background-color: #008080; overflow: hidden; margin-bottom: 20px;">
+    <a href="index.html" style="float: left; display: block; color: #FFE4C4; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
+    <a href="about.html" style="float: left; display: block; color: #FFE4C4; text-align: center; padding: 14px 16px; text-decoration: none;">About</a>
+    <a href="contact.html" style="float: left; display: block; color: #FFE4C4; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a>
+  </div>
+
+  <div class="header" style="text-align: center; margin-bottom: 20px; background-color: #008080; padding: 10px;">
+    <h1 style="color: #FFF;">Welcome to the new contact page!</h1>
+  </div>
+
+  <div class="content" style="margin-bottom: 20px; background-color: #ADD8E6; padding: 20px;">
+    <h3 style="background-color: #7FFFD4; text-align: center;">Updated Song Visibility</h3>
+    <p class="visible" style="color: #006400;">Highest in the Room by Travis Scott</p>
+    <p class="hidden" style="color: #8B0000;">Sicko Mode by Travis Scott</p>
+
+    <br><br><br>
+
+    <h3 style="background-color: #7FFFD4; text-align: center;">Updated Album Opacity</h3>
+    <p class="op_1" style="color: #8B4513;">ASTROWORLD by Travis Scott</p>
+    <p class="op_0" style="color: #2F4F4F;">Rodeo by Travis Scott</p>
+    <p class="op_05" style="color: #696969;">Birds in the Trap Sing McKnight by Travis Scott</p>
+
+    <br><br>
+
+    <h3 style="background-color: #7FFFD4; text-align: center;">Updated Album Display</h3>
+    <p style="color: #4682B4;">Favorite album: <span class="none" style="font-weight: bold;">Huncho Jack, Jack Huncho by Travis Scott and Quavo</span> Display: none</p>
+    <p style="color: #4682B4;">Favorite album: <span class="inline" style="font-weight: bold;">ASTROWORLD by Travis Scott</span> Display: inline</p>
+    <p style="color: #4682B4;">Favorite album: <span class="block" style="font-weight: bold;">Rodeo by Travis Scott</span> Display: block</p>
+  </div>
+
+  <div class="footer" style="text-align: center; background-color: #B0E0E6; padding: 10px; color: #008B8B;">
+    <p>Copyright © 2023 - Your Company</p>
+  </div>
+
+</body>
+
+</html>
